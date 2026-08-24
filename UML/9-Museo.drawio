@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="5FU1xSi8qm1zPB_4OJbo">
+    <mxGraphModel dx="1906" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ObjetoDeArte" vertex="1">
+          <mxGeometry height="204" width="160" x="71" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-2" parent="KnxQMP33gcOsU-HqNy_s-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p&gt;&lt;code&gt;- nroIdentificacion: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- titulo: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- descripcion: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- anioCreacion: int&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="144" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-3" parent="KnxQMP33gcOsU-HqNy_s-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-4" parent="KnxQMP33gcOsU-HqNy_s-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pintura" vertex="1">
+          <mxGeometry height="138" width="160" x="-389" y="601" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-6" parent="KnxQMP33gcOsU-HqNy_s-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p&gt;&lt;code&gt;- tipoPintura: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- soporte: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- estilo: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="104" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-7" parent="KnxQMP33gcOsU-HqNy_s-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Escultura" vertex="1">
+          <mxGeometry height="158" width="160" x="-199" y="711" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-10" parent="KnxQMP33gcOsU-HqNy_s-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p&gt;&lt;code&gt;- material: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- altura: double&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- peso: double&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- estilo: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="124" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-11" parent="KnxQMP33gcOsU-HqNy_s-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Otro" vertex="1">
+          <mxGeometry height="52" width="160" x="11" y="731" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-44" edge="1" parent="1" source="KnxQMP33gcOsU-HqNy_s-5" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="KnxQMP33gcOsU-HqNy_s-1" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-29" y="511" as="sourcePoint" />
+            <mxPoint x="131" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-45" edge="1" parent="1" source="KnxQMP33gcOsU-HqNy_s-9" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="KnxQMP33gcOsU-HqNy_s-1" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="211" y="611" as="sourcePoint" />
+            <mxPoint x="371" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-46" edge="1" parent="1" source="KnxQMP33gcOsU-HqNy_s-13" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="KnxQMP33gcOsU-HqNy_s-1" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="391" y="611" as="sourcePoint" />
+            <mxPoint x="131" y="521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-51" edge="1" parent="1" source="KnxQMP33gcOsU-HqNy_s-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="KnxQMP33gcOsU-HqNy_s-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-52" connectable="0" parent="KnxQMP33gcOsU-HqNy_s-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8386" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-53" connectable="0" parent="KnxQMP33gcOsU-HqNy_s-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="0.7819" y="-4" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-47" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Artista" vertex="1">
+          <mxGeometry height="278" width="160" x="481" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-48" parent="KnxQMP33gcOsU-HqNy_s-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p&gt;&lt;code&gt;- nombre: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- fechaNacimiento: LocalDate&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- fechaDefuncion: LocalDate&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- paisOrigen: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- epoca: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- estiloPrincipal: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- descripcion: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="244" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-49" parent="KnxQMP33gcOsU-HqNy_s-47" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-54" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Permanente" vertex="1">
+          <mxGeometry height="146" width="160" x="211" y="731" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-55" parent="KnxQMP33gcOsU-HqNy_s-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p&gt;&lt;code&gt;- fechaAdquisicion: LocalDate&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- coste: double&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- estado: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="112" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-56" parent="KnxQMP33gcOsU-HqNy_s-54" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-58" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EnPrestamo" vertex="1">
+          <mxGeometry height="167" width="160" x="431" y="731" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-59" parent="KnxQMP33gcOsU-HqNy_s-58" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p&gt;&lt;code&gt;- nombreColeccion: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- fechaRecibido: LocalDate&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- fechaDevolucion: LocalDate&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="133" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-60" parent="KnxQMP33gcOsU-HqNy_s-58" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-62" edge="1" parent="1" source="KnxQMP33gcOsU-HqNy_s-54" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="KnxQMP33gcOsU-HqNy_s-1" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="181" y="651" as="sourcePoint" />
+            <mxPoint x="191" y="531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-63" edge="1" parent="1" source="KnxQMP33gcOsU-HqNy_s-58" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="KnxQMP33gcOsU-HqNy_s-1" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="321" y="611" as="sourcePoint" />
+            <mxPoint x="481" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-64" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Exposicion" vertex="1">
+          <mxGeometry height="167" width="160" x="-370" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-65" parent="KnxQMP33gcOsU-HqNy_s-64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p&gt;&lt;code&gt;- nombre: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- fechaComienzo: LocalDate&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- fechaFinalizacion: LocalDate&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="133" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-66" parent="KnxQMP33gcOsU-HqNy_s-64" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-68" edge="1" parent="1" source="KnxQMP33gcOsU-HqNy_s-64" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="KnxQMP33gcOsU-HqNy_s-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="350" as="sourcePoint" />
+            <mxPoint x="30" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-69" connectable="0" parent="KnxQMP33gcOsU-HqNy_s-68" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="n" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-70" connectable="0" parent="KnxQMP33gcOsU-HqNy_s-68" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" value="n" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-76" edge="1" parent="1" source="KnxQMP33gcOsU-HqNy_s-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KnxQMP33gcOsU-HqNy_s-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-77" connectable="0" parent="KnxQMP33gcOsU-HqNy_s-76" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="0.7525" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-78" connectable="0" parent="KnxQMP33gcOsU-HqNy_s-76" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.6962" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-72" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ColeccionExterna" vertex="1">
+          <mxGeometry height="238" width="160" x="431" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-73" parent="KnxQMP33gcOsU-HqNy_s-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p&gt;&lt;code&gt;- nombre: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- tipo: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- descripcion: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- direccion: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- telefono: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;- personaContacto: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="204" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KnxQMP33gcOsU-HqNy_s-74" parent="KnxQMP33gcOsU-HqNy_s-72" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
