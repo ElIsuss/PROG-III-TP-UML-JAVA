@@ -1,0 +1,57 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>657</x><y>81</y><w>189</w><h>171</h></coordinates><panel_attributes>
+Ciudad
+--
++ nombre : String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>396</y><w>189</w><h>171</h></coordinates><panel_attributes>
+Restaurante
+--
++ nombre : String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1062</x><y>396</y><w>189</w><h>171</h></coordinates><panel_attributes>
+Sucursal
+--
++ ubicacion : String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>684</y><w>189</w><h>171</h></coordinates><panel_attributes>
+Plato
+--
+nombre : String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>144</x><y>396</y><w>189</w><h>171</h></coordinates><panel_attributes>
+Persona
+--
++nombre: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>738</x><y>243</y><w>90</w><h>171</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=Ciudad
+m2=1..n
+r2=Restaurantes
+Tiene</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>738</x><y>558</y><w>90</w><h>144</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=Restaurante
+m2=1..n
+r2=Platos
+Tiene</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>828</x><y>459</y><w>252</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=Restaurante
+m2=1..n
+r2=Sucursales
+Tiene</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>477</y><w>342</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1..n
+r1=Persona
+m2=1..n
+r2=Restaurantes
+Frecuenta</panel_attributes><additional_attributes>10;20;360;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>144</x><y>693</y><w>189</w><h>162</h></coordinates><panel_attributes>
+Preferencia
+--
+- persona : Persona
+- restaurante : Restaurante
+- plato : Plato
+- leGusta : boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>558</y><w>81</w><h>153</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=Persona
+m2=1..n
+r2=Preferencia
+Tiene</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>756</y><w>342</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=Plato
+m2=1..n
+r2=Preferencia
+Tiene</panel_attributes><additional_attributes>360;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>558</y><w>342</w><h>153</h></coordinates><panel_attributes>lt=-
+m1=1
+r1=Restaurante
+m2=1..n
+r2=Preferencia
+Tiene</panel_attributes><additional_attributes>360;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>828</x><y>468</y><w>252</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;260;10</additional_attributes></element></diagram>
