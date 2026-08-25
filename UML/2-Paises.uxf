@@ -1,0 +1,33 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>283</x><y>158</y><w>180</w><h>144</h></coordinates><panel_attributes>Pais
+--
+-nombre : string
+-provincias : List&lt;Provincia&gt;
+-continente : Continente
+-paisesLimitrofes : List&lt;Pais&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>544</x><y>239</y><w>189</w><h>171</h></coordinates><panel_attributes>Provincia
+--
+-nombre : string
+-ciudades : List &lt;Ciudad&gt;
+-ciudadCapital : Ciudad
+-provinciasLimitrofes : &lt;Provincia&gt;
+-paisesLimitrofes : List&lt;Pais&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>796</x><y>392</y><w>153</w><h>144</h></coordinates><panel_attributes>Ciudad
+--
+-nombre: string </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>139</x><y>212</y><w>162</w><h>63</h></coordinates><panel_attributes>lt=&lt;-
+m2=1
+m1=*
+</panel_attributes><additional_attributes>160;40;10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>355</x><y>293</y><w>207</w><h>90</h></coordinates><panel_attributes>
+m2=1
+m1=*</panel_attributes><additional_attributes>210;70;10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>625</x><y>401</y><w>189</w><h>99</h></coordinates><panel_attributes>lt=&lt;-
+m2=1
+m1=*</panel_attributes><additional_attributes>190;80;10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>58</x><y>50</y><w>162</w><h>171</h></coordinates><panel_attributes>Continente
+--
+-nombre : string
+Continente
+- paises : List&lt;Pais&gt; 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>418</x><y>113</y><w>108</w><h>99</h></coordinates><panel_attributes>lt=&lt;-
+m2=1
+m1=*</panel_attributes><additional_attributes>10;50;10;10;100;10;100;80;50;80</additional_attributes></element><element><id>Relation</id><coordinates><x>688</x><y>194</y><w>108</w><h>99</h></coordinates><panel_attributes>lt=&lt;-
+m2=1
+m1=*</panel_attributes><additional_attributes>10;50;10;10;100;10;100;80;50;80</additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>302</y><w>477</w><h>225</h></coordinates><panel_attributes>lt=&lt;-
+m2=1
+m1=*
+</panel_attributes><additional_attributes>510;220;10;220;10;10</additional_attributes></element></diagram>
