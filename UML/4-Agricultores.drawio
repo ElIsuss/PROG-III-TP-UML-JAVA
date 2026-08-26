@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="BXZSs_TDOCifrrfrXYlO">
+    <mxGraphModel dx="860" dy="479" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Lote" vertex="1">
+          <mxGeometry height="123" width="349" x="13" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-6" parent="2injB0Nf4-sVGDdX7ALD-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;recursiveResize=1;" value="- nombre: String&lt;div&gt;- minerales: List&amp;lt;Mineral&amp;gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;pasturaSembradaPreviamente: boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="349" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-37" parent="2injB0Nf4-sVGDdX7ALD-5" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;recursiveResize=1;" value="+ recomendarCereales(catalogo: List&amp;lt;Cereal&amp;gt;): List&amp;lt;Cereal&amp;gt;&lt;div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="349" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-7" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Cereal" vertex="1">
+          <mxGeometry height="139" width="213" x="631" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-8" parent="2injB0Nf4-sVGDdX7ALD-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- nombre : String&lt;/div&gt;&lt;div&gt;- tipo : TipoCereal&lt;/div&gt;&lt;div&gt;- mineralesRequeridos : List&amp;lt;Mineral&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="68" width="213" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-38" parent="2injB0Nf4-sVGDdX7ALD-7" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ esAptoPara(lote: Lote): boolean&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="213" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Mineral" vertex="1">
+          <mxGeometry height="71" width="142" x="421" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-10" parent="2injB0Nf4-sVGDdX7ALD-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nombre: String&lt;div&gt;- tipo: TipoMineral&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="142" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TipoMineral" vertex="1">
+          <mxGeometry height="68" width="140" x="328" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-15" parent="2injB0Nf4-sVGDdX7ALD-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="PRIMARIO&lt;br&gt;&lt;div&gt;SECUNDARIO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-16" edge="1" parent="1" source="2injB0Nf4-sVGDdX7ALD-10" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" target="2injB0Nf4-sVGDdX7ALD-6" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="440" y="580" as="sourcePoint" />
+            <mxPoint x="364" y="517.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-17" edge="1" parent="1" source="2injB0Nf4-sVGDdX7ALD-10" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=-0.009;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;" target="2injB0Nf4-sVGDdX7ALD-8" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="508" y="568" as="sourcePoint" />
+            <mxPoint x="668" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-21" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TipoCereal" vertex="1">
+          <mxGeometry height="84" width="140" x="489" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-22" parent="2injB0Nf4-sVGDdX7ALD-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="FINO&lt;div&gt;GRUESO&lt;/div&gt;&lt;div&gt;PASTURA&lt;/div&gt;" vertex="1">
+          <mxGeometry height="58" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; n*" vertex="1">
+          <mxGeometry height="30" width="107" x="336" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="n*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1" vertex="1">
+          <mxGeometry height="30" width="60" x="563" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="contiene" vertex="1">
+          <mxGeometry height="30" width="60" x="362" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="2injB0Nf4-sVGDdX7ALD-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="requiere" vertex="1">
+          <mxGeometry height="30" width="60" x="562" y="477" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
